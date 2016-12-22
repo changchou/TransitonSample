@@ -1,0 +1,11 @@
+<transitionManager
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <transition
+        android:fromScene="@layout/activity_animations_scene1"
+        android:toScene="@layout/activity_animations_scene2"
+        android:transition="@transition/changebounds_with_arcmotion"/>
+    <transition
+        android:fromScene="@layout/activity_animations_scene2"
+        android:toScene="@layout/activity_animations_scene3"
+        android:transition="@transition/explode"/>
+</transitionManager>

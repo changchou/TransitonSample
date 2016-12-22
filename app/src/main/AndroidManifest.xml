@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhang.transitionsample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MaterialAnimations">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".transition.Transition1Activity"
+            android:theme="@style/MaterialAnimations.Red" />
+        <activity
+            android:name=".transition.Transition2Activity"
+            android:theme="@style/MaterialAnimations.Red" />
+        <activity
+            android:name=".transition.Transition3Activity"
+            android:theme="@style/MaterialAnimations.Red" />
+        <activity
+            android:name=".sharedelement.SharedElementActivity"
+            android:theme="@style/MaterialAnimations.Blue" />
+        <activity
+            android:name=".animations.Animations1Activity"
+            android:theme="@style/MaterialAnimations.Green" />
+        <activity
+            android:name=".animations.Animations2Activity"
+            android:theme="@style/MaterialAnimations.Green" />
+    </application>
+
+</manifest>
